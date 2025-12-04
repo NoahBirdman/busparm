@@ -1,0 +1,133 @@
+{
+    "busparm": [
+        {
+            "port" : "COM12"
+        }
+    ],
+    "settings": [
+        {
+            "name": "Debug",
+            "value": 1,
+            "list": "0,1,2"
+        },
+        {
+            "name": "Save Settings",
+            "value": "True",
+            "list": "True, False"
+        },
+        {
+            "name": "Ignore Devices",
+            "value": ""
+        }
+    ],
+    "devices": [
+        {
+            "name": "(F1)LTM4677",
+            "description" : "(U43) 0.85V / 1.8V FPGA1 Power",
+            "address": "0x44",
+            "cmd_length" : 1,
+            "parser": "LTM4677.json",
+            "color": "YELLOW",
+            "debug": 0
+        },
+        {
+            "name": "(F2)LTM4677",
+            "description" : "(U51) 0.85V / 1.8V FPGA2 Power",
+            "address": "0x45",
+            "cmd_length" : 1,
+            "parser": "LTM4677.json",
+            "color": "BMAGENTA",
+            "debug": 0
+        },
+        {
+            "name": "(U21)TMP117",
+            "description" : "(U21) Board Tempurature",
+            "address": "0x48",
+            "cmd_length" : 1,
+            "parser": "TMP117.json",
+            "color": "GREEN",
+            "debug": 0
+        },
+        {
+            "name": "(U27)TMP117",
+            "description" : "(U27) Board Tempurature",
+            "address": "0x49",
+            "cmd_length" : 1,
+            "parser": "TMP117.json",
+            "color": "GREEN",
+            "debug": 0
+        },
+        {
+            "name": "(U28)TMP117",
+            "description" : "(U28) Board Tempurature",
+            "address": "0x4A",
+            "cmd_length" : 1,
+            "parser": "TMP117.json",
+            "color": "GREEN",
+            "debug": 0
+        },
+        {
+            "name": "(J2)Leap RX",
+            "description" : "(J2) Leap RX",
+            "address": "0x4F",
+            "cmd_length" : 1,
+            "parser": "",
+            "color": "CYAN",
+            "debug": 0
+        },
+        {
+            "name": "(J2)Leap TX",
+            "description" : "(J2) Leap TX",
+            "address": "0x5F",
+            "cmd_length" : 1,
+            "parser": "",
+            "color": "BLUE",
+            "debug": 0
+        },
+        {
+            "name": "(U20)HCD3021",
+            "description" : "(U20) Humidity Sensor",
+            "address": "0x46",
+            "cmd_length" : 2,
+            "parser": "",
+            "color": "GREEN",
+            "debug": 0
+        },
+        {
+            "name": "(U7)MS560702",
+            "description" : "(U7) Pressure Sensor",
+            "address": "0x76",
+            "cmd_length" : 1,
+            "parser": "",
+            "color": "GREEN",
+            "debug": 0
+        },
+        {
+            "name": "(U74)ICM-42670",
+            "description" : "(U74) Extra IMU",
+            "address": "0x68",
+            "cmd_length" : 1,
+            "parser": "",
+            "color": "GREEN",
+            "debug": 0
+        },
+        {
+            "name": "(U23)EEPROM",
+            "description" : "(U23) EEPROM + MAC 24AA02E48T-E/OT",
+            "address": "0x68",
+            "cmd_length" : 1,
+            "parser": "",
+            "color": "GREEN",
+            "debug": 0
+        },
+        {
+            "name": "(U17)ETI",
+            "description" : "(U17) Elapsed Time Indicator - DS1683S+",
+            "address": "0x68",
+            "cmd_length" : 1,
+            "parser": "",
+            "color": "GREEN",
+            "debug": 0
+        }
+    ]
+}
